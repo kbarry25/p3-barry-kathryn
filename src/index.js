@@ -9,6 +9,8 @@ class App {
   constructor() {
       this.renderTemplate();
       lunch.changeFoods();
+      lunch.changeColor();
+      lunch.changeColor2();
   }
 
   renderTemplate() {
